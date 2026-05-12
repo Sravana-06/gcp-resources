@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #030712;
+  color: white;
+  font-family: Inter, sans-serif;
+  overflow-x: hidden;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #0B1225;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 20px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+
+input::placeholder {
+  color: #64748B;
+}
+
+
+input,
+button {
+  outline: none;
+}
+
+
+button {
+  transition: all 0.2s ease;
+}
+
+
+.card-glow {
+  box-shadow:
+    0 0 0 1px rgba(59, 130, 246, 0.05),
+    0 10px 40px rgba(0, 0, 0, 0.25);
+}
